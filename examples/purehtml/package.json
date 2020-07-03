@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "PORT=7104 http-server . --cors",
+    "start": "http-server . --cors --p 7104",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

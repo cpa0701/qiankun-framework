@@ -44,12 +44,6 @@ registerMicroApps(
       activeRule: genActiveRule('/vue'),
     },
     {
-      name: 'angular9',
-      entry: '//localhost:7103',
-      render,
-      activeRule: genActiveRule('/angular9'),
-    },
-    {
       name: 'purehtml',
       entry: '//localhost:7104',
       render,
